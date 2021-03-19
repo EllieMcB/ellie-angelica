@@ -1,7 +1,75 @@
-#H1accommodation{
-    padding-top: 6%;
-}
 
-main{
-    padding-left: 1%;
-}
+/* Whole Site Styling */
+
+    main{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    main {
+        flex: 1;  /* makes the <main> grow (we want it to grow so that it pushes <footer> to the bottom of page)*/
+    }
+
+    body {
+        display: flex;  /* setting "display: flex" allows its children (e.g. "main" below) to use the "flex" property */
+        flex-direction: column;
+        padding-top: 56px;  /* allow enough space for a fixed navbar (56px is the height of the navbar here) */
+        padding-bottom: 1%;
+        min-height: 100vh;  /* i.e minimum width is 100% of the "viewport height"... i.e the full screen height */
+    }
+
+    footer{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .social-icon {
+        display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
+        width: 50px;
+        height: 50px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(98, 119, 240);
+        justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
+        align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
+        border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+    }
+
+    #go-top-button {
+        width: 100px;
+        height: 100px;
+        position: fixed;  /* Fixed/sticky position */
+        bottom: 20px;  /* Place the button 20px from the bottom of the page */
+        right: 30px;  /* Place the button 30px from the right */
+        z-index: 99;  /* Make sure it does not overlap */
+        border-radius: 100%;  /* makes it round (circle if width and height are the same) */
+    }
+    
+    .social-icon:hover {
+        color: #222;  /* change color when hover over the link */
+    }
+
+
+/* Accommodation Page Styling */
+
+  #H1accommodation{
+    padding-top: 6%;
+ }
+
+
+
+/* About Page Styling */
+
+  .card {
+    display: inline-flex;
+    justify-content: center;
+    }
+
+  #about-heading {
+      padding-top: 1%;
+      padding-bottom: 1%;
+  }
+
+  #meet-heading {
+      padding-top: 1%;
+      padding-bottom: 1%;
+  }
