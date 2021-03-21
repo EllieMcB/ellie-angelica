@@ -57,6 +57,12 @@
   #H1accommodation{
     padding-top: 6%;
  }
+ 
+ #T1table, #T1tr,th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+ }
 
 
 
