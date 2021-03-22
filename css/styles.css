@@ -17,10 +17,18 @@ main{
         min-height: 100vh;  /* i.e minimum width is 100% of the "viewport height"... i.e the full screen height */
     }
 
-    footer{
-        padding-left: 1%;
-        padding-right: 1%;
-    }
+    footer {
+        display: flex;  /* allows use of "justify-content" property */
+        justify-content: center;  /* horizontally centers the contents (the social icons) */
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        padding: 20px;
+      }
+      
+      footer a {
+        margin: 5px;
+        text-decoration: none!important;
+      }
 
     .social-icon {
         display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
@@ -202,3 +210,60 @@ dd{
      text-decoration:none;
      font-weight:bold;
  }
+
+ /* Placement Page Styling */
+
+ #placementbutton2 {
+    color: white;
+    background-color: black;
+    border-color: black;
+ }
+
+ #placementbutton1 {
+    color: white;
+    background-color: black;
+    border-color: black;
+ }
+
+ #placementhead1 {
+ padding-top: 1%;
+ padding-bottom: 1%;
+ }
+
+ #elliework {
+     display: flex;
+     size: 20%;
+     justify-content: right;
+ }
+
+ #section-1{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+  }
+
+  #section-2{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+  }
+  
+  #section-3{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+  }
+  
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
