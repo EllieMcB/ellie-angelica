@@ -1,7 +1,6 @@
 
 /* Whole Site Styling */
-
-    main{
+main{
         padding-left: 1%;
         padding-right: 1%;
     }
@@ -54,15 +53,47 @@
 
 /* Accommodation Page Styling */
 
-  #H1accommodation{
-    padding-top: 6%;
- }
+#H1accommodation{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+#H2accommodation{
+    padding-top: 1%;
+    padding-left: 1%;
+}
  
- #T1table, #T1tr,th, td{
+#T1table{
+    margin-left: 5%;
+}
+
+ #T1tr,th, td{
     border: 2px solid black;
     border-collapse: collapse;
     padding: 5px;
  }
+
+ p{
+     margin-top: 1%;
+     margin-bottom: 1%;
+     margin-left: 1%;
+ }
+
+ dl{
+     margin-left: 1%;
+     margin-top: 2%;
+ }
+ dt{
+     margin-left: 2%;
+     margin-top: 2%;
+ }
+dd{
+    margin-left: 4%;
+    margin-top: 0.5%;
+}
+
+
+
 
 
 
